@@ -4,13 +4,15 @@ h1{
 .Headers{
     display: flex;
     flex-direction:row; /*lay items horizontally*/
-    justify-content: space-between;
-    align-items: center;
-    padding:30px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 25px;
+    justify-content: center;
 }
 .item{
     flex-grow: 1;
-    margin: 10px;
+    margin: 0 -2px;
     color: black;
     text-decoration: none;
 }
@@ -21,10 +23,12 @@ h1{
     align-items: center;
     text-align: center;
 }
+
 .engine{
     flex-grow:1;
     margin:10px;
 }
+
 #copyright{
     color: white;
     background-color: darkgrey;
