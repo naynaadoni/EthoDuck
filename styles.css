@@ -58,7 +58,7 @@ h1{
     flex-direction: column;
     justify-content: space-around;
     background-color: lightblue;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 .product{
     text-align: center;
