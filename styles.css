@@ -1,38 +1,59 @@
 h1{
-    color: black
+    color: #493628;
+    font-family: 'Cormorant Garamond', sans serif; 
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+h2{
+    color: #493628;
+    font-family: 'Cormorant Garamond', sans serif; 
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin-top: 100px;
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
 }
+
 .return{
-    color: black;
-    text-decoration: none;
+    color: #493628;
+    font-family: 'Cormorant Garamond', sans serif; 
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin-top: 50px;
+    text-align: center;
 }
 .Headers{
     display: flex;
     flex-direction:row; /*lay items horizontally*/
-    padding: 30px;
     align-items: center;
-    margin: 20px 0;
     justify-content: center;
-    font-size: 25px;
+    color: #493628;
+}
+.mainnav{
+    margin-top: 50px;
 }
 .item{
     flex-grow: 1;
-    margin: 0;
-    padding: 10px;
-    color: black;
+    margin-left: 10px;
+    margin-right:10px;
+    font-size: 20px;
+    color: #493628;
     text-decoration: none;
 }
 .search{
+    color: #493628;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content:space-between;
     align-items: center;
     text-align: center;
+    margin: 175px;
 }
 
 .engine{
@@ -46,19 +67,21 @@ h1{
 }
 
 .individual{
-    color: black;
+    color: #493628;
     text-decoration:none;
     padding-top: 10px;
 }
 
 .list{
+    color: #493628;
+    flex-wrap: wrap;
     display:flex;
     flex-direction:row;
     justify-content: space-around;
     text-align: center;
     flex-wrap: wrap;
-    gap: 20px;
-    padding:10px;
+    gap: 10px;
+    padding:5px;
 }
 
 .list img{
@@ -72,9 +95,25 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: lightblue;
+    background-color: #D6C0B3;
     border-radius: 20px;
+    padding:10px;
 }
 .product{
     text-align: center;
+}
+
+body{
+    background-color: #E4E0E1;
+}
+
+.sentence{
+    background-color: #D6C0B3 ;
+}
+
+.childheader{
+    padding: 10px;
+    font-family: 'Cormorant Garamond', sans serif; 
+    background-color: #D6C0B3;
+    margin-bottom: 40px;
 }
