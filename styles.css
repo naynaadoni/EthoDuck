@@ -17,6 +17,9 @@ h2{
     justify-content: center;
     align-items: center;
 }
+.pageheader{
+    margin-top: 100px;
+}
 
 .return{
     color: #493628;
@@ -31,11 +34,15 @@ h2{
     display: flex;
     flex-direction:row; /*lay items horizontally*/
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     color: #493628;
 }
 .mainnav{
-    margin-top: 50px;
+    margin-top: 60px;
+    padding: 0 125px;
+}
+.logo{
+    margin-right: auto;
 }
 .item{
     flex-grow: 1;
@@ -54,8 +61,20 @@ h2{
     text-align: center;
     margin: 175px;
 }
-
+.pagesearch{
+    color: #493628;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+}
 .engine{
+    flex-grow:1;
+    margin:10px;
+}
+.pageengine{
     flex-grow:1;
     margin:10px;
 }
